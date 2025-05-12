@@ -177,6 +177,6 @@ This allows you to replicate complete application environments across stages.
 
 ---
 
-### ✅ Wrapping Up
+### Wrapping Up
 
-We’ve built a modular, secure CI/CD pipeline using Azure DevOps and Terraform. While this example used a simple Service Bus setup, it’s easy to extend the pipeline and Terraform code to deploy any Azure infrastructure component you need.
+We’ve built a modular, secure CI/CD pipeline using Azure DevOps and Terraform. While this example used a simple Service Bus setup, it’s easy to extend the pipeline and Terraform code to deploy any Azure infrastructure component you need. Huge thanks again to [NotHarshhaa](https://github.com/NotHarshhaa) for the project concept.
