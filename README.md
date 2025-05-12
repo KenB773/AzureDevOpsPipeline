@@ -43,8 +43,6 @@ To authenticate Terraform from ADO, we need a Service Principal:
 3. Note the **Application (client) ID** and **Directory (tenant) ID**
 4. Under **Certificates & Secrets**, generate a new secret named `ADO` and save its value.
 
-![None](https://miro.medium.com/v2/resize\:fit:700/0*TcXK0wSIBfL2De7I.png)
-
 ---
 
 ### Set Up Terraform Backend in Azure Blob
@@ -168,7 +166,7 @@ After the **Terraform Plan** stage runs, review and approve the **Terraform Appl
 
 ---
 
-### 📈 Scale to Multi-Environment
+### Scale to Multi-Environment
 
 You can reuse this template to deploy to DEV, UAT, and PROD. Simply do the following:
 
