@@ -53,10 +53,7 @@ Terraform stores state data centrally. We'll host that in Azure Blob Storage:
 2. Create Storage Account: `tfstatedemostg`
 3. Create Blob Container: `tfstate`
 
-Grant the SPN **Storage Blob Data Contributor** on the storage account:
-
-![None](https://miro.medium.com/v2/resize\:fit:700/0*M2hk7fQjuvsZFPMV.png)
-![None](https://miro.medium.com/v2/resize\:fit:700/0*aNWzEt0OhbJ2I03U.png)
+Grant the SPN **Storage Blob Data Contributor** on the storage account.
 
 > No need to create the tfstate file manually—Terraform handles that on first run.
 
