@@ -1,10 +1,10 @@
-# Azure DevOps Pipeline + Terraform Deployment Tutorial
+# Azure DevOps Pipeline + Terraform Deployment
 
 ![None](https://miro.medium.com/v2/resize\:fit:700/0*5iGW5XrxHIeZb-eX.png)
 
 ## Use Azure DevOps to Automate Terraform Deployments in Azure
 
-In this walkthrough, we’ll build a robust multi-stage Azure DevOps pipeline that deploys Terraform-managed infrastructure to Azure. Along the way, we’ll:
+In this project we’ll build a robust, multi-stage Azure DevOps pipeline that deploys Terraform-managed infrastructure to Azure. The plan:
 
 * Store Terraform backend state in Azure Blob Storage
 * Configure a Service Principal and grant it scoped RBAC access
@@ -179,4 +179,4 @@ This allows you to replicate complete application environments across stages.
 
 ### Wrapping Up
 
-We’ve built a modular, secure CI/CD pipeline using Azure DevOps and Terraform. While this example used a simple Service Bus setup, it’s easy to extend the pipeline and Terraform code to deploy any Azure infrastructure component you need. Huge thanks again to [NotHarshhaa](https://github.com/NotHarshhaa) for the project concept.
+There we have it, folks - we’ve built a modular, secure CI/CD pipeline using Azure DevOps and Terraform. While this example used a rather simple Service Bus setup, it’s easy to extend the pipeline and Terraform code to deploy any Azure infrastructure component you may need. Huge thanks again to [NotHarshhaa](https://github.com/NotHarshhaa) for the project concept.
