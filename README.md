@@ -115,7 +115,6 @@ Terraform will use these environment variables for authentication.
 Add an ADO [Environment](https://techcommunity.microsoft.com/t5/healthcare-and-life-sciences/azure-devops-pipelines-environments-and-variables/ba-p/3707414) named `env01`, then configure **Approvals and Checks** with your user or team.
 
 ![None](https://miro.medium.com/v2/resize\:fit:700/0*lwx6MDC8kbvKvkoY.png)
-![None](https://miro.medium.com/v2/resize\:fit:700/0*aVMcQ_NuQ6cXCWC3.png)
 ![None](https://miro.medium.com/v2/resize\:fit:700/0*Z1LsCoH66MgO41gZ.png)
 
 #### 🛠️ Build the Pipeline
